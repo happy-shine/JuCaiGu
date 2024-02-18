@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AE530E0B277ABF95EC0238 /* libPods-聚才谷.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93561B215E45F5D542C27B86 /* libPods-聚才谷.a */; };
+		CC77ECB02B73D87100C62BA3 /* JobUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECAF2B73D87100C62BA3 /* JobUIApp.swift */; };
+		CC77ECB22B73D87100C62BA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECB12B73D87100C62BA3 /* ContentView.swift */; };
+		CC77ECB42B73D87200C62BA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC77ECB32B73D87200C62BA3 /* Assets.xcassets */; };
+		CC77ECB72B73D87200C62BA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC77ECB62B73D87200C62BA3 /* Preview Assets.xcassets */; };
+		CC77ECC02B73DD6D00C62BA3 /* ApplicantContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECBF2B73DD6D00C62BA3 /* ApplicantContentView.swift */; };
+		CC77ECC22B73DDEC00C62BA3 /* ApplicantHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECC12B73DDEC00C62BA3 /* ApplicantHomeView.swift */; };
+		CC77ECC42B73DE2C00C62BA3 /* ApplicantPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECC32B73DE2C00C62BA3 /* ApplicantPersonView.swift */; };
+		CC77ECC62B73DEAB00C62BA3 /* ApplicantChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECC52B73DEAB00C62BA3 /* ApplicantChatView.swift */; };
+		CC77ECCA2B74967100C62BA3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECC92B74967100C62BA3 /* LoginView.swift */; };
+		CC77ECCD2B7496D000C62BA3 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECCC2B7496D000C62BA3 /* AuthService.swift */; };
+		CC77ECCF2B7496F200C62BA3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECCE2B7496F200C62BA3 /* Config.swift */; };
+		CC77ECD12B74BA9E00C62BA3 /* ApplicantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECD02B74BA9E00C62BA3 /* ApplicantService.swift */; };
+		CC77ECD32B776CA000C62BA3 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECD22B776CA000C62BA3 /* OpenAIService.swift */; };
+		CC77ECD72B79DB5D00C62BA3 /* ApplicantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECD62B79DB5D00C62BA3 /* ApplicantModel.swift */; };
+		CC77ECD92B79DB7200C62BA3 /* ObservableApplicantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECD82B79DB7200C62BA3 /* ObservableApplicantModel.swift */; };
+		CCF59AD32B7CB27E00EFF781 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AD22B7CB27E00EFF781 /* CompanyModel.swift */; };
+		CCF59AD52B7CB29900EFF781 /* ObservableCompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AD42B7CB29900EFF781 /* ObservableCompanyModel.swift */; };
+		CCF59AD82B7CCBFB00EFF781 /* EditPersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AD72B7CCBFB00EFF781 /* EditPersonalInfoView.swift */; };
+		CCF59ADB2B7CCC8100EFF781 /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59ADA2B7CCC8100EFF781 /* ResumeView.swift */; };
+		CCF59ADD2B7CE25E00EFF781 /* CompanyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59ADC2B7CE25E00EFF781 /* CompanyContentView.swift */; };
+		CCF59ADF2B7CE3AB00EFF781 /* CompanyHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59ADE2B7CE3AB00EFF781 /* CompanyHomeView.swift */; };
+		CCF59AE12B7CE3B500EFF781 /* CompanyReleaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AE02B7CE3B500EFF781 /* CompanyReleaseView.swift */; };
+		CCF59AE42B7CE3CE00EFF781 /* CompanyHRPersonalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AE32B7CE3CD00EFF781 /* CompanyHRPersonalView.swift */; };
+		CCF59AE82B7CEF4700EFF781 /* CompanyAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AE72B7CEF4700EFF781 /* CompanyAuthService.swift */; };
+		CCF59AEA2B7DC73400EFF781 /* ConpanyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AE92B7DC73400EFF781 /* ConpanyService.swift */; };
+		CCF59AEC2B7E3A1700EFF781 /* DiliverListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AEB2B7E3A1700EFF781 /* DiliverListView.swift */; };
+		CCF59AEF2B7F1F3E00EFF781 /* TalentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AEE2B7F1F3E00EFF781 /* TalentListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59FE6A884AF63C2316A532DF /* Pods-聚才谷.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-聚才谷.release.xcconfig"; path = "Target Support Files/Pods-聚才谷/Pods-聚才谷.release.xcconfig"; sourceTree = "<group>"; };
+		890B112D5FA6AB28C7621343 /* Pods-聚才谷.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-聚才谷.debug.xcconfig"; path = "Target Support Files/Pods-聚才谷/Pods-聚才谷.debug.xcconfig"; sourceTree = "<group>"; };
+		93561B215E45F5D542C27B86 /* libPods-聚才谷.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-聚才谷.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC77ECAC2B73D87100C62BA3 /* 聚才谷.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "聚才谷.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC77ECAF2B73D87100C62BA3 /* JobUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobUIApp.swift; sourceTree = "<group>"; };
+		CC77ECB12B73D87100C62BA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC77ECB32B73D87200C62BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC77ECB62B73D87200C62BA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC77ECBF2B73DD6D00C62BA3 /* ApplicantContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantContentView.swift; sourceTree = "<group>"; };
+		CC77ECC12B73DDEC00C62BA3 /* ApplicantHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantHomeView.swift; sourceTree = "<group>"; };
+		CC77ECC32B73DE2C00C62BA3 /* ApplicantPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantPersonView.swift; sourceTree = "<group>"; };
+		CC77ECC52B73DEAB00C62BA3 /* ApplicantChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantChatView.swift; sourceTree = "<group>"; };
+		CC77ECC92B74967100C62BA3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CC77ECCC2B7496D000C62BA3 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		CC77ECCE2B7496F200C62BA3 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CC77ECD02B74BA9E00C62BA3 /* ApplicantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantService.swift; sourceTree = "<group>"; };
+		CC77ECD22B776CA000C62BA3 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		CC77ECD62B79DB5D00C62BA3 /* ApplicantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantModel.swift; sourceTree = "<group>"; };
+		CC77ECD82B79DB7200C62BA3 /* ObservableApplicantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableApplicantModel.swift; sourceTree = "<group>"; };
+		CCF59AD22B7CB27E00EFF781 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
+		CCF59AD42B7CB29900EFF781 /* ObservableCompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCompanyModel.swift; sourceTree = "<group>"; };
+		CCF59AD72B7CCBFB00EFF781 /* EditPersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonalInfoView.swift; sourceTree = "<group>"; };
+		CCF59ADA2B7CCC8100EFF781 /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
+		CCF59ADC2B7CE25E00EFF781 /* CompanyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyContentView.swift; sourceTree = "<group>"; };
+		CCF59ADE2B7CE3AB00EFF781 /* CompanyHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHomeView.swift; sourceTree = "<group>"; };
+		CCF59AE02B7CE3B500EFF781 /* CompanyReleaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyReleaseView.swift; sourceTree = "<group>"; };
+		CCF59AE32B7CE3CD00EFF781 /* CompanyHRPersonalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyHRPersonalView.swift; sourceTree = "<group>"; };
+		CCF59AE72B7CEF4700EFF781 /* CompanyAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyAuthService.swift; sourceTree = "<group>"; };
+		CCF59AE92B7DC73400EFF781 /* ConpanyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConpanyService.swift; sourceTree = "<group>"; };
+		CCF59AEB2B7E3A1700EFF781 /* DiliverListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiliverListView.swift; sourceTree = "<group>"; };
+		CCF59AEE2B7F1F3E00EFF781 /* TalentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC77ECA92B73D87100C62BA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AE530E0B277ABF95EC0238 /* libPods-聚才谷.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C46E304643152425AEFEDC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				890B112D5FA6AB28C7621343 /* Pods-聚才谷.debug.xcconfig */,
+				59FE6A884AF63C2316A532DF /* Pods-聚才谷.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		531A631FF924DF710AE80702 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93561B215E45F5D542C27B86 /* libPods-聚才谷.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC77ECA32B73D87100C62BA3 = {
+			isa = PBXGroup;
+			children = (
+				CC77ECAE2B73D87100C62BA3 /* JobUI */,
+				CC77ECAD2B73D87100C62BA3 /* Products */,
+				1C46E304643152425AEFEDC1 /* Pods */,
+				531A631FF924DF710AE80702 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC77ECAD2B73D87100C62BA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC77ECAC2B73D87100C62BA3 /* 聚才谷.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC77ECAE2B73D87100C62BA3 /* JobUI */ = {
+			isa = PBXGroup;
+			children = (
+				CC77ECD52B79DB4600C62BA3 /* Model */,
+				CC77ECCB2B7496B200C62BA3 /* Service */,
+				CC77ECBE2B73DD2600C62BA3 /* Company */,
+				CC77ECBD2B73DD1200C62BA3 /* Applicant */,
+				CC77ECAF2B73D87100C62BA3 /* JobUIApp.swift */,
+				CC77ECB12B73D87100C62BA3 /* ContentView.swift */,
+				CC77ECC92B74967100C62BA3 /* LoginView.swift */,
+				CC77ECCE2B7496F200C62BA3 /* Config.swift */,
+				CC77ECB32B73D87200C62BA3 /* Assets.xcassets */,
+				CC77ECB52B73D87200C62BA3 /* Preview Content */,
+			);
+			path = JobUI;
+			sourceTree = "<group>";
+		};
+		CC77ECB52B73D87200C62BA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC77ECB62B73D87200C62BA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC77ECBD2B73DD1200C62BA3 /* Applicant */ = {
+			isa = PBXGroup;
+			children = (
+				CCF59AD62B7CCBC000EFF781 /* AplicantPersonChildren */,
+				CC77ECBF2B73DD6D00C62BA3 /* ApplicantContentView.swift */,
+				CC77ECC12B73DDEC00C62BA3 /* ApplicantHomeView.swift */,
+				CC77ECC32B73DE2C00C62BA3 /* ApplicantPersonView.swift */,
+				CC77ECC52B73DEAB00C62BA3 /* ApplicantChatView.swift */,
+			);
+			path = Applicant;
+			sourceTree = "<group>";
+		};
+		CC77ECBE2B73DD2600C62BA3 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				CCF59AED2B7F1F0900EFF781 /* HrPersonalChildrenView */,
+				CCF59ADC2B7CE25E00EFF781 /* CompanyContentView.swift */,
+				CCF59ADE2B7CE3AB00EFF781 /* CompanyHomeView.swift */,
+				CCF59AE02B7CE3B500EFF781 /* CompanyReleaseView.swift */,
+				CCF59AE32B7CE3CD00EFF781 /* CompanyHRPersonalView.swift */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		CC77ECCB2B7496B200C62BA3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CCF59AE62B7CE5F200EFF781 /* Company */,
+				CCF59AE52B7CE5E100EFF781 /* Aplicant */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CC77ECD52B79DB4600C62BA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC77ECD62B79DB5D00C62BA3 /* ApplicantModel.swift */,
+				CC77ECD82B79DB7200C62BA3 /* ObservableApplicantModel.swift */,
+				CCF59AD22B7CB27E00EFF781 /* CompanyModel.swift */,
+				CCF59AD42B7CB29900EFF781 /* ObservableCompanyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCF59AD62B7CCBC000EFF781 /* AplicantPersonChildren */ = {
+			isa = PBXGroup;
+			children = (
+				CCF59AD72B7CCBFB00EFF781 /* EditPersonalInfoView.swift */,
+				CCF59ADA2B7CCC8100EFF781 /* ResumeView.swift */,
+				CCF59AEB2B7E3A1700EFF781 /* DiliverListView.swift */,
+			);
+			path = AplicantPersonChildren;
+			sourceTree = "<group>";
+		};
+		CCF59AE52B7CE5E100EFF781 /* Aplicant */ = {
+			isa = PBXGroup;
+			children = (
+				CC77ECCC2B7496D000C62BA3 /* AuthService.swift */,
+				CC77ECD02B74BA9E00C62BA3 /* ApplicantService.swift */,
+				CC77ECD22B776CA000C62BA3 /* OpenAIService.swift */,
+			);
+			path = Aplicant;
+			sourceTree = "<group>";
+		};
+		CCF59AE62B7CE5F200EFF781 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				CCF59AE72B7CEF4700EFF781 /* CompanyAuthService.swift */,
+				CCF59AE92B7DC73400EFF781 /* ConpanyService.swift */,
+			);
+			path = Company;
+			sourceTree = "<group>";
+		};
+		CCF59AED2B7F1F0900EFF781 /* HrPersonalChildrenView */ = {
+			isa = PBXGroup;
+			children = (
+				CCF59AEE2B7F1F3E00EFF781 /* TalentListView.swift */,
+			);
+			path = HrPersonalChildrenView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC77ECAB2B73D87100C62BA3 /* 聚才谷 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC77ECBA2B73D87200C62BA3 /* Build configuration list for PBXNativeTarget "聚才谷" */;
+			buildPhases = (
+				324E97D094BEBDAC85CB2342 /* [CP] Check Pods Manifest.lock */,
+				CC77ECA82B73D87100C62BA3 /* Sources */,
+				CC77ECA92B73D87100C62BA3 /* Frameworks */,
+				CC77ECAA2B73D87100C62BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "聚才谷";
+			productName = JobUI;
+			productReference = CC77ECAC2B73D87100C62BA3 /* 聚才谷.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC77ECA42B73D87100C62BA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CC77ECAB2B73D87100C62BA3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CC77ECA72B73D87100C62BA3 /* Build configuration list for PBXProject "聚才谷" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC77ECA32B73D87100C62BA3;
+			productRefGroup = CC77ECAD2B73D87100C62BA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC77ECAB2B73D87100C62BA3 /* 聚才谷 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC77ECAA2B73D87100C62BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC77ECB72B73D87200C62BA3 /* Preview Assets.xcassets in Resources */,
+				CC77ECB42B73D87200C62BA3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		324E97D094BEBDAC85CB2342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-聚才谷-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC77ECA82B73D87100C62BA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC77ECC02B73DD6D00C62BA3 /* ApplicantContentView.swift in Sources */,
+				CC77ECD92B79DB7200C62BA3 /* ObservableApplicantModel.swift in Sources */,
+				CC77ECCA2B74967100C62BA3 /* LoginView.swift in Sources */,
+				CCF59AD52B7CB29900EFF781 /* ObservableCompanyModel.swift in Sources */,
+				CCF59AD32B7CB27E00EFF781 /* CompanyModel.swift in Sources */,
+				CCF59AEF2B7F1F3E00EFF781 /* TalentListView.swift in Sources */,
+				CC77ECCF2B7496F200C62BA3 /* Config.swift in Sources */,
+				CCF59AD82B7CCBFB00EFF781 /* EditPersonalInfoView.swift in Sources */,
+				CCF59ADF2B7CE3AB00EFF781 /* CompanyHomeView.swift in Sources */,
+				CC77ECC42B73DE2C00C62BA3 /* ApplicantPersonView.swift in Sources */,
+				CC77ECB22B73D87100C62BA3 /* ContentView.swift in Sources */,
+				CC77ECC62B73DEAB00C62BA3 /* ApplicantChatView.swift in Sources */,
+				CCF59AE82B7CEF4700EFF781 /* CompanyAuthService.swift in Sources */,
+				CC77ECD32B776CA000C62BA3 /* OpenAIService.swift in Sources */,
+				CC77ECC22B73DDEC00C62BA3 /* ApplicantHomeView.swift in Sources */,
+				CCF59AEC2B7E3A1700EFF781 /* DiliverListView.swift in Sources */,
+				CCF59ADD2B7CE25E00EFF781 /* CompanyContentView.swift in Sources */,
+				CCF59AE12B7CE3B500EFF781 /* CompanyReleaseView.swift in Sources */,
+				CCF59ADB2B7CCC8100EFF781 /* ResumeView.swift in Sources */,
+				CC77ECD72B79DB5D00C62BA3 /* ApplicantModel.swift in Sources */,
+				CC77ECB02B73D87100C62BA3 /* JobUIApp.swift in Sources */,
+				CCF59AEA2B7DC73400EFF781 /* ConpanyService.swift in Sources */,
+				CCF59AE42B7CE3CE00EFF781 /* CompanyHRPersonalView.swift in Sources */,
+				CC77ECD12B74BA9E00C62BA3 /* ApplicantService.swift in Sources */,
+				CC77ECCD2B7496D000C62BA3 /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC77ECB82B73D87200C62BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC77ECB92B73D87200C62BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC77ECBB2B73D87200C62BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890B112D5FA6AB28C7621343 /* Pods-聚才谷.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JobUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KNUB5JMH24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.JobUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC77ECBC2B73D87200C62BA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59FE6A884AF63C2316A532DF /* Pods-聚才谷.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JobUI/Preview Content\"";
+				DEVELOPMENT_TEAM = KNUB5JMH24;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.JobUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC77ECA72B73D87100C62BA3 /* Build configuration list for PBXProject "聚才谷" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC77ECB82B73D87200C62BA3 /* Debug */,
+				CC77ECB92B73D87200C62BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC77ECBA2B73D87200C62BA3 /* Build configuration list for PBXNativeTarget "聚才谷" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC77ECBB2B73D87200C62BA3 /* Debug */,
+				CC77ECBC2B73D87200C62BA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC77ECA42B73D87100C62BA3 /* Project object */;
+}

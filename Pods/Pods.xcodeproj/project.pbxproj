@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE78948E681B889C9BE43AC65D4EDE8 /* OpenAIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2AF2BB14D6F9C4697DA46CA11B49C /* OpenAIKit.swift */; };
+		2C41432517305FEC9B90015E9E9839B7 /* CompletionsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6AAC7DC51D8E9AB5461A1D3FB8205 /* CompletionsModels.swift */; };
+		340142968C45C2A28485EDAE8D82EBD8 /* Edits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47417D1B4E296A8FD230EA78D5F2F00D /* Edits.swift */; };
+		41ACF1F396531D7D497A4E177D3DD99F /* OpenAIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 013CAB0580ABE48325E6A3872F7FF651 /* OpenAIKit-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62616268221969077B98C274C5077E1C /* NetworkRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204955EAA6D346F6DAED2D69A6D226E /* NetworkRoutes.swift */; };
+		62BA4BEF2A3331A3875F79FEAF9E7775 /* OpenAIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 501C1594B443D421897D0A1E70627F7A /* OpenAIKit-dummy.m */; };
+		8238D7CFCBE782767AC17C5697118F5A /* AIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9789883D4D2EB2613E8B52E72467AE33 /* AIModel.swift */; };
+		8FBA6C038508F611DD1A6F016DAF6E38 /* Pods-聚才谷-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E69C94F4C3DABB935C4F1FE2E0C6C2 /* Pods-聚才谷-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FF9BBFA53F964E8C0C3230FA250E900 /* OpenAIKitNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4438E3BE0C06BD7C6F6881369419DC /* OpenAIKitNetwork.swift */; };
+		9002D29B8CFFDBEC544160C90B119D6C /* ChatCompletionsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBB3FB4AF9B48158307029DCB91B5 /* ChatCompletionsRequest.swift */; };
+		A68723E8AF2E1B658F2A48966B7D01B8 /* OpenAISSLDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DD96B1027F98172E935619122C55B7 /* OpenAISSLDelegate.swift */; };
+		B88772E45718A17C243AD95021127709 /* Completions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085E3C02F68B3A05EAB53D39916C6C92 /* Completions.swift */; };
+		C7EB3BC8B0C9EEA31D784A6FC7C443E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029DF29A634791BE37EE56CD1C265A5D /* Extensions.swift */; };
+		D0C7876BD1FD92A67834996BDA0D138D /* EditsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30EAB8E0B9F0DD974BBE11D4A41C6DE /* EditsModels.swift */; };
+		D79577F1E58D2FC611705E4E29C9D21B /* Pods-聚才谷-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 287EC367A89EA7C261767EDF58324906 /* Pods-聚才谷-dummy.m */; };
+		E5338E30CD49AAE61D11F80C3F351FCA /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA69F1A3F1A7C443A1AC025E6AD56C0 /* Chat.swift */; };
+		E9426C0D44D3CFB0D8DF412D6B8C9CF6 /* AIEventStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8E0DE46D0F33256D95C65EFB6CA4A /* AIEventStream.swift */; };
+		F65E952320033DE7E0A9A8BB3F4C5622 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE12625B5DA257F46F48C804D43EEF2 /* Images.swift */; };
+		F7D2F6E4835021BD934D42341D2F9378 /* ImagesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A481751DB0E0F3AC0448CF9BBA1C76B /* ImagesModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A4D202CA6F4BC733EB1964169EE6677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADE8D63A9F0558A380BDAF8E8DE85B31;
+			remoteInfo = OpenAIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0062C7EE42CD0AD94AB7CCA04E9507E6 /* OpenAIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenAIKit.debug.xcconfig; sourceTree = "<group>"; };
+		013CAB0580ABE48325E6A3872F7FF651 /* OpenAIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenAIKit-umbrella.h"; sourceTree = "<group>"; };
+		029DF29A634791BE37EE56CD1C265A5D /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/OpenAIKit/Extensions/Extensions.swift; sourceTree = "<group>"; };
+		05E69C94F4C3DABB935C4F1FE2E0C6C2 /* Pods-聚才谷-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-聚才谷-umbrella.h"; sourceTree = "<group>"; };
+		085E3C02F68B3A05EAB53D39916C6C92 /* Completions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Completions.swift; path = Sources/OpenAIKit/OpenAIKitRequests/Completions.swift; sourceTree = "<group>"; };
+		0D1DBB3FB4AF9B48158307029DCB91B5 /* ChatCompletionsRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatCompletionsRequest.swift; path = Sources/OpenAIKit/Models/ChatCompletionsRequest.swift; sourceTree = "<group>"; };
+		19D823AFCA18DD4EFE0E871ECBB76F4C /* Pods-聚才谷.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-聚才谷.debug.xcconfig"; sourceTree = "<group>"; };
+		276DB426D3ADBF4DD6CC4332EE29D58F /* Pods-聚才谷 */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-聚才谷"; path = "libPods-聚才谷.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287EC367A89EA7C261767EDF58324906 /* Pods-聚才谷-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-聚才谷-dummy.m"; sourceTree = "<group>"; };
+		30D40289ED934D282757A07F59BA51F9 /* Pods-聚才谷.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-聚才谷.release.xcconfig"; sourceTree = "<group>"; };
+		3191E59ECFE9C47AA5859603BDA76F1A /* Pods-聚才谷-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-聚才谷-acknowledgements.plist"; sourceTree = "<group>"; };
+		4204955EAA6D346F6DAED2D69A6D226E /* NetworkRoutes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkRoutes.swift; path = Sources/OpenAIKit/Helpers/NetworkRoutes.swift; sourceTree = "<group>"; };
+		47417D1B4E296A8FD230EA78D5F2F00D /* Edits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edits.swift; path = Sources/OpenAIKit/OpenAIKitRequests/Edits.swift; sourceTree = "<group>"; };
+		501C1594B443D421897D0A1E70627F7A /* OpenAIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OpenAIKit-dummy.m"; sourceTree = "<group>"; };
+		5668593C49199045E7A7D056798B06B9 /* OpenAIKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = OpenAIKit; path = libOpenAIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		58914A090FA9CBCF7651DEC33952D69C /* OpenAIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpenAIKit.release.xcconfig; sourceTree = "<group>"; };
+		7A481751DB0E0F3AC0448CF9BBA1C76B /* ImagesModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagesModels.swift; path = Sources/OpenAIKit/Models/ImagesModels.swift; sourceTree = "<group>"; };
+		8CE12625B5DA257F46F48C804D43EEF2 /* Images.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Images.swift; path = Sources/OpenAIKit/OpenAIKitRequests/Images.swift; sourceTree = "<group>"; };
+		9789883D4D2EB2613E8B52E72467AE33 /* AIModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AIModel.swift; path = Sources/OpenAIKit/Models/AIModel.swift; sourceTree = "<group>"; };
+		9CA2AF2BB14D6F9C4697DA46CA11B49C /* OpenAIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIKit.swift; path = Sources/OpenAIKit/OpenAIKit.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA29B60EA14AD3F3F1B0903EB2F16CF /* OpenAIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OpenAIKit-prefix.pch"; sourceTree = "<group>"; };
+		CB9EED14E9CAEEE24B704DC46CD33C13 /* Pods-聚才谷.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-聚才谷.modulemap"; sourceTree = "<group>"; };
+		CFAE323DE39457E1EF33BBED20B6062C /* Pods-聚才谷-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-聚才谷-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6FFD0ADC135CB80F8FCB7D2495B3C7F /* OpenAIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OpenAIKit.modulemap; sourceTree = "<group>"; };
+		DBC6AAC7DC51D8E9AB5461A1D3FB8205 /* CompletionsModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompletionsModels.swift; path = Sources/OpenAIKit/Models/CompletionsModels.swift; sourceTree = "<group>"; };
+		DEA69F1A3F1A7C443A1AC025E6AD56C0 /* Chat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chat.swift; path = Sources/OpenAIKit/OpenAIKitRequests/Chat.swift; sourceTree = "<group>"; };
+		EE4438E3BE0C06BD7C6F6881369419DC /* OpenAIKitNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAIKitNetwork.swift; path = Sources/OpenAIKit/Helpers/OpenAIKitNetwork.swift; sourceTree = "<group>"; };
+		F30EAB8E0B9F0DD974BBE11D4A41C6DE /* EditsModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditsModels.swift; path = Sources/OpenAIKit/Models/EditsModels.swift; sourceTree = "<group>"; };
+		F4E8E0DE46D0F33256D95C65EFB6CA4A /* AIEventStream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AIEventStream.swift; path = Sources/OpenAIKit/Helpers/AIEventStream.swift; sourceTree = "<group>"; };
+		F9DD96B1027F98172E935619122C55B7 /* OpenAISSLDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OpenAISSLDelegate.swift; path = Sources/OpenAIKit/Helpers/OpenAISSLDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02DE1145A32BE49E3C33CFD25E82D05D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8BACFA97671E04A68F1C7127715FB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4199FC0990A57A0857287603096A8EB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5668593C49199045E7A7D056798B06B9 /* OpenAIKit */,
+				276DB426D3ADBF4DD6CC4332EE29D58F /* Pods-聚才谷 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440D6259151AAFAF4D3819C14FEC0D6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B385D7D1E7995F4795D5D18B95780A1E /* Pods-聚才谷 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		54C6BECB638FB7B390EBCA499DD7A09D /* OpenAIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8E0DE46D0F33256D95C65EFB6CA4A /* AIEventStream.swift */,
+				9789883D4D2EB2613E8B52E72467AE33 /* AIModel.swift */,
+				DEA69F1A3F1A7C443A1AC025E6AD56C0 /* Chat.swift */,
+				0D1DBB3FB4AF9B48158307029DCB91B5 /* ChatCompletionsRequest.swift */,
+				085E3C02F68B3A05EAB53D39916C6C92 /* Completions.swift */,
+				DBC6AAC7DC51D8E9AB5461A1D3FB8205 /* CompletionsModels.swift */,
+				47417D1B4E296A8FD230EA78D5F2F00D /* Edits.swift */,
+				F30EAB8E0B9F0DD974BBE11D4A41C6DE /* EditsModels.swift */,
+				029DF29A634791BE37EE56CD1C265A5D /* Extensions.swift */,
+				8CE12625B5DA257F46F48C804D43EEF2 /* Images.swift */,
+				7A481751DB0E0F3AC0448CF9BBA1C76B /* ImagesModels.swift */,
+				4204955EAA6D346F6DAED2D69A6D226E /* NetworkRoutes.swift */,
+				9CA2AF2BB14D6F9C4697DA46CA11B49C /* OpenAIKit.swift */,
+				EE4438E3BE0C06BD7C6F6881369419DC /* OpenAIKitNetwork.swift */,
+				F9DD96B1027F98172E935619122C55B7 /* OpenAISSLDelegate.swift */,
+				96A49705C1A1ABC725CB72CFD7FB0852 /* Support Files */,
+			);
+			name = OpenAIKit;
+			path = OpenAIKit;
+			sourceTree = "<group>";
+		};
+		5CD85464124665748024C82C37C20F8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54C6BECB638FB7B390EBCA499DD7A09D /* OpenAIKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96A49705C1A1ABC725CB72CFD7FB0852 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6FFD0ADC135CB80F8FCB7D2495B3C7F /* OpenAIKit.modulemap */,
+				501C1594B443D421897D0A1E70627F7A /* OpenAIKit-dummy.m */,
+				9DA29B60EA14AD3F3F1B0903EB2F16CF /* OpenAIKit-prefix.pch */,
+				013CAB0580ABE48325E6A3872F7FF651 /* OpenAIKit-umbrella.h */,
+				0062C7EE42CD0AD94AB7CCA04E9507E6 /* OpenAIKit.debug.xcconfig */,
+				58914A090FA9CBCF7651DEC33952D69C /* OpenAIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenAIKit";
+			sourceTree = "<group>";
+		};
+		B385D7D1E7995F4795D5D18B95780A1E /* Pods-聚才谷 */ = {
+			isa = PBXGroup;
+			children = (
+				CB9EED14E9CAEEE24B704DC46CD33C13 /* Pods-聚才谷.modulemap */,
+				CFAE323DE39457E1EF33BBED20B6062C /* Pods-聚才谷-acknowledgements.markdown */,
+				3191E59ECFE9C47AA5859603BDA76F1A /* Pods-聚才谷-acknowledgements.plist */,
+				287EC367A89EA7C261767EDF58324906 /* Pods-聚才谷-dummy.m */,
+				05E69C94F4C3DABB935C4F1FE2E0C6C2 /* Pods-聚才谷-umbrella.h */,
+				19D823AFCA18DD4EFE0E871ECBB76F4C /* Pods-聚才谷.debug.xcconfig */,
+				30D40289ED934D282757A07F59BA51F9 /* Pods-聚才谷.release.xcconfig */,
+			);
+			name = "Pods-聚才谷";
+			path = "Target Support Files/Pods-聚才谷";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				5CD85464124665748024C82C37C20F8F /* Pods */,
+				4199FC0990A57A0857287603096A8EB4 /* Products */,
+				440D6259151AAFAF4D3819C14FEC0D6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1245BDA7166E182C880107DCD7FD3EAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41ACF1F396531D7D497A4E177D3DD99F /* OpenAIKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93049C517CA9B399D5731A18F3B70DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBA6C038508F611DD1A6F016DAF6E38 /* Pods-聚才谷-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DEF92282958C508983EEE964235DDBA /* Pods-聚才谷 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AC8E7B203CA9431C7E99E8267F8BAA /* Build configuration list for PBXNativeTarget "Pods-聚才谷" */;
+			buildPhases = (
+				C93049C517CA9B399D5731A18F3B70DB /* Headers */,
+				3F016344735A495B300598FC8107095B /* Sources */,
+				4F8BACFA97671E04A68F1C7127715FB3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				318E69435C65FB81A339B2AEDDB2575D /* PBXTargetDependency */,
+			);
+			name = "Pods-聚才谷";
+			productName = "Pods-聚才谷";
+			productReference = 276DB426D3ADBF4DD6CC4332EE29D58F /* Pods-聚才谷 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ADE8D63A9F0558A380BDAF8E8DE85B31 /* OpenAIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D161DFD23E04B40CB64A266D7E4B06E /* Build configuration list for PBXNativeTarget "OpenAIKit" */;
+			buildPhases = (
+				1245BDA7166E182C880107DCD7FD3EAB /* Headers */,
+				AFD883D5BA1CA8543FE860D95A106667 /* Sources */,
+				02DE1145A32BE49E3C33CFD25E82D05D /* Frameworks */,
+				B0BE67A502130F08E0010CBD6CE671C9 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenAIKit;
+			productName = OpenAIKit;
+			productReference = 5668593C49199045E7A7D056798B06B9 /* OpenAIKit */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4199FC0990A57A0857287603096A8EB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADE8D63A9F0558A380BDAF8E8DE85B31 /* OpenAIKit */,
+				2DEF92282958C508983EEE964235DDBA /* Pods-聚才谷 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B0BE67A502130F08E0010CBD6CE671C9 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/OpenAIKit/OpenAIKit.modulemap",
+				"${PODS_ROOT}/Headers/Public/OpenAIKit/OpenAIKit-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/OpenAIKit-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/OpenAIKit/OpenAIKit.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/OpenAIKit/OpenAIKit-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F016344735A495B300598FC8107095B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79577F1E58D2FC611705E4E29C9D21B /* Pods-聚才谷-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD883D5BA1CA8543FE860D95A106667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9426C0D44D3CFB0D8DF412D6B8C9CF6 /* AIEventStream.swift in Sources */,
+				8238D7CFCBE782767AC17C5697118F5A /* AIModel.swift in Sources */,
+				E5338E30CD49AAE61D11F80C3F351FCA /* Chat.swift in Sources */,
+				9002D29B8CFFDBEC544160C90B119D6C /* ChatCompletionsRequest.swift in Sources */,
+				B88772E45718A17C243AD95021127709 /* Completions.swift in Sources */,
+				2C41432517305FEC9B90015E9E9839B7 /* CompletionsModels.swift in Sources */,
+				340142968C45C2A28485EDAE8D82EBD8 /* Edits.swift in Sources */,
+				D0C7876BD1FD92A67834996BDA0D138D /* EditsModels.swift in Sources */,
+				C7EB3BC8B0C9EEA31D784A6FC7C443E3 /* Extensions.swift in Sources */,
+				F65E952320033DE7E0A9A8BB3F4C5622 /* Images.swift in Sources */,
+				F7D2F6E4835021BD934D42341D2F9378 /* ImagesModels.swift in Sources */,
+				62616268221969077B98C274C5077E1C /* NetworkRoutes.swift in Sources */,
+				0CE78948E681B889C9BE43AC65D4EDE8 /* OpenAIKit.swift in Sources */,
+				62BA4BEF2A3331A3875F79FEAF9E7775 /* OpenAIKit-dummy.m in Sources */,
+				8FF9BBFA53F964E8C0C3230FA250E900 /* OpenAIKitNetwork.swift in Sources */,
+				A68723E8AF2E1B658F2A48966B7D01B8 /* OpenAISSLDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		318E69435C65FB81A339B2AEDDB2575D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpenAIKit;
+			target = ADE8D63A9F0558A380BDAF8E8DE85B31 /* OpenAIKit */;
+			targetProxy = 8A4D202CA6F4BC733EB1964169EE6677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56B7563E0943893F06FE7595D595B8A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58914A090FA9CBCF7651DEC33952D69C /* OpenAIKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenAIKit/OpenAIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/OpenAIKit/OpenAIKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OpenAIKit;
+				PRODUCT_NAME = OpenAIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B706F48B0A753E3DCB688ED01FE2ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D823AFCA18DD4EFE0E871ECBB76F4C /* Pods-聚才谷.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-聚才谷/Pods-聚才谷.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F4BABDB6D0659759FCE906111CDCDA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D40289ED934D282757A07F59BA51F9 /* Pods-聚才谷.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-聚才谷/Pods-聚才谷.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD3AD7E3BA2D6877190943625BF89591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0062C7EE42CD0AD94AB7CCA04E9507E6 /* OpenAIKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OpenAIKit/OpenAIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/OpenAIKit/OpenAIKit.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OpenAIKit;
+				PRODUCT_NAME = OpenAIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D161DFD23E04B40CB64A266D7E4B06E /* Build configuration list for PBXNativeTarget "OpenAIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3AD7E3BA2D6877190943625BF89591 /* Debug */,
+				56B7563E0943893F06FE7595D595B8A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AC8E7B203CA9431C7E99E8267F8BAA /* Build configuration list for PBXNativeTarget "Pods-聚才谷" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B706F48B0A753E3DCB688ED01FE2ACF /* Debug */,
+				9F4BABDB6D0659759FCE906111CDCDA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
