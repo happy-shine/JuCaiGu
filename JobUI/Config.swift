@@ -8,4 +8,4 @@
 import Foundation
 
 let BASE_URL = "http://192.168.0.104:8080"
-let OPENAI_API_KEY = "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"
+let OPENAI_API_KEY = ""
