@@ -253,7 +253,7 @@ class JobViewModel: ObservableObject {
     }
     
     func applyForJob(jobId: String) {
-        guard let url = URL(string: "http://localhost:8080/apply-job") else { return }
+        guard let url = URL(string: "\(BASE_URL)/apply-job") else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
@@ -275,3 +275,31 @@ class JobViewModel: ObservableObject {
     }
 }
 
+
+class JobApplicationsViewModel: ObservableObject {
+    @Published var jobApplications = [JobApplication]()
+    
+    func fetchJobApplications() {
+        guard let token = UserDefaults.standard.string(forKey: "authToken") else {
+            print("Auth token not found")
+            return
+        }
+        
+        let url = URL(string: "\(BASE_URL)/applicant/applications")!
+        var request = URLRequest(url: url)
+        request.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let data = data {
+                if let response = try? JSONDecoder().decode([JobApplication].self, from: data) {
+                    DispatchQueue.main.async {
+                        self.jobApplications = response
+                    }
+                } else {
+                    print("JSON Decoding Failed")
+                }
+            }
+        }.resume()
+    }
+}

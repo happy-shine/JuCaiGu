@@ -48,22 +48,17 @@ struct CompanyHRPersonalView: View {
                     }
                 }
                 .padding()
-                .sheet(isPresented: $showingImagePicker) {
-                    ImagePicker(selectedImageBase64: self.$selectedImageBase64) {
-
-                    }
-                }
                 
                 List {
 
-                    NavigationLink(destination: TalentListView()) {
+                    NavigationLink(destination: TalentListView(isBlackList: false)) {
                         HStack {
                             Image(systemName: "person.and.background.striped.horizontal")
                             Text("人才库")
                         }
                     }
                     
-                    NavigationLink(destination: BlackListView()) {
+                    NavigationLink(destination: TalentListView(isBlackList: true)) {
                         HStack {
                             Image(systemName: "list.bullet.circle.fill")
                             Text("黑名单")
@@ -98,6 +93,9 @@ struct CompanyHRPersonalView: View {
                 Spacer()
             }
             .navigationBarTitle("我的", displayMode: .inline)
+            .fullScreenCover(isPresented: $showingLoginView) {
+                LoginView()
+            }
         }
     }
 }

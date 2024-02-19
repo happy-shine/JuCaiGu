@@ -63,3 +63,20 @@ struct ApplicationInfo: Codable {
     var appliedOn: String = ""
     var status: String = ""
 }
+
+struct JobApplication: Codable, Identifiable {
+    let id = UUID()
+    var jobId: String
+    var status: String
+    var jobTitle: String
+    var jobDescription: String
+    var company: String
+    var location: String
+    var type: String
+    var postedOn: String
+    var salaryMonth: String
+    
+    enum CodingKeys: String, CodingKey {
+        case jobId, status, jobTitle, jobDescription, company, location, type, postedOn, salaryMonth
+    }
+}

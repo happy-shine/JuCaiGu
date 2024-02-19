@@ -149,7 +149,7 @@ struct ApplicantPersonView: View {
                         Alert(title: Text("简历优化建议"), message: Text("您还没有上传简历"), dismissButton: .default(Text("好的")))
                     }
                     
-                    NavigationLink(destination: AboutUsView()) {
+                    NavigationLink(destination: JobApplicationsView()) {
                         HStack {
                             Image(systemName: "doc.questionmark.rtl")
                             Text("投递结果")

@@ -20,7 +20,8 @@ struct Company: Codable {
     var jobList: [Job] = []
 }
 
-struct Job: Codable {
+struct Job: Codable, Identifiable {
+    let id: UUID
     var jobId: String = ""
     var title: String = ""
     var description: String = ""
@@ -29,6 +30,11 @@ struct Job: Codable {
     var type: String = ""
     var postedOn: String = ""
     var salaryMonth: String = ""
+    
+    enum CodingKeys: String, CodingKey {
+        case id = "jobId"
+        case title, description, company, location, type, postedOn, salaryMonth
+    }
 }
 
 struct HR: Codable {

@@ -23,6 +23,7 @@
 		CC77ECD32B776CA000C62BA3 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECD22B776CA000C62BA3 /* OpenAIService.swift */; };
 		CC77ECD72B79DB5D00C62BA3 /* ApplicantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECD62B79DB5D00C62BA3 /* ApplicantModel.swift */; };
 		CC77ECD92B79DB7200C62BA3 /* ObservableApplicantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC77ECD82B79DB7200C62BA3 /* ObservableApplicantModel.swift */; };
+		CCE24B722B835D55005460A9 /* JobApplicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE24B712B835D55005460A9 /* JobApplicationsView.swift */; };
 		CCF59AD32B7CB27E00EFF781 /* CompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AD22B7CB27E00EFF781 /* CompanyModel.swift */; };
 		CCF59AD52B7CB29900EFF781 /* ObservableCompanyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AD42B7CB29900EFF781 /* ObservableCompanyModel.swift */; };
 		CCF59AD82B7CCBFB00EFF781 /* EditPersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF59AD72B7CCBFB00EFF781 /* EditPersonalInfoView.swift */; };
@@ -57,6 +58,7 @@
 		CC77ECD22B776CA000C62BA3 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
 		CC77ECD62B79DB5D00C62BA3 /* ApplicantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicantModel.swift; sourceTree = "<group>"; };
 		CC77ECD82B79DB7200C62BA3 /* ObservableApplicantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableApplicantModel.swift; sourceTree = "<group>"; };
+		CCE24B712B835D55005460A9 /* JobApplicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationsView.swift; sourceTree = "<group>"; };
 		CCF59AD22B7CB27E00EFF781 /* CompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyModel.swift; sourceTree = "<group>"; };
 		CCF59AD42B7CB29900EFF781 /* ObservableCompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCompanyModel.swift; sourceTree = "<group>"; };
 		CCF59AD72B7CCBFB00EFF781 /* EditPersonalInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonalInfoView.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				CCF59AD72B7CCBFB00EFF781 /* EditPersonalInfoView.swift */,
 				CCF59ADA2B7CCC8100EFF781 /* ResumeView.swift */,
 				CCF59AEB2B7E3A1700EFF781 /* DiliverListView.swift */,
+				CCE24B712B835D55005460A9 /* JobApplicationsView.swift */,
 			);
 			path = AplicantPersonChildren;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC77ECC02B73DD6D00C62BA3 /* ApplicantContentView.swift in Sources */,
+				CCE24B722B835D55005460A9 /* JobApplicationsView.swift in Sources */,
 				CC77ECD92B79DB7200C62BA3 /* ObservableApplicantModel.swift in Sources */,
 				CC77ECCA2B74967100C62BA3 /* LoginView.swift in Sources */,
 				CCF59AD52B7CB29900EFF781 /* ObservableCompanyModel.swift in Sources */,

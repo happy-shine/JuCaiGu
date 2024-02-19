@@ -7,5 +7,5 @@
 
 import Foundation
 
-let BASE_URL = "http://192.168.0.104:8080"
+let BASE_URL = "http://192.168.31.155:8080"
 let OPENAI_API_KEY = ""
